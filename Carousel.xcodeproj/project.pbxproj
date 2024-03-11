@@ -11,6 +11,8 @@
 		F34652922B9EE0EA003E9B13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34652912B9EE0EA003E9B13 /* ContentView.swift */; };
 		F34652942B9EE0EC003E9B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34652932B9EE0EC003E9B13 /* Assets.xcassets */; };
 		F34652972B9EE0EC003E9B13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34652962B9EE0EC003E9B13 /* Preview Assets.xcassets */; };
+		F346529E2B9EE199003E9B13 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346529D2B9EE199003E9B13 /* ThemeColor.swift */; };
+		F34652A22B9EE239003E9B13 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34652A12B9EE239003E9B13 /* ThemeFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F34652912B9EE0EA003E9B13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F34652932B9EE0EC003E9B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F34652962B9EE0EC003E9B13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F346529D2B9EE199003E9B13 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		F34652A12B9EE239003E9B13 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		F346528E2B9EE0EA003E9B13 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				F34652A02B9EE1EE003E9B13 /* View */,
+				F346529F2B9EE1DE003E9B13 /* Config */,
 				F346528F2B9EE0EA003E9B13 /* CarouselApp.swift */,
-				F34652912B9EE0EA003E9B13 /* ContentView.swift */,
 				F34652932B9EE0EC003E9B13 /* Assets.xcassets */,
 				F34652952B9EE0EC003E9B13 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				F34652962B9EE0EC003E9B13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F346529F2B9EE1DE003E9B13 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F346529D2B9EE199003E9B13 /* ThemeColor.swift */,
+				F34652A12B9EE239003E9B13 /* ThemeFont.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F34652A02B9EE1EE003E9B13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F34652912B9EE0EA003E9B13 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34652A22B9EE239003E9B13 /* ThemeFont.swift in Sources */,
 				F34652922B9EE0EA003E9B13 /* ContentView.swift in Sources */,
 				F34652902B9EE0EA003E9B13 /* CarouselApp.swift in Sources */,
+				F346529E2B9EE199003E9B13 /* ThemeColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

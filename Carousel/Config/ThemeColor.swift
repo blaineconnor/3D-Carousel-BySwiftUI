@@ -89,7 +89,7 @@ struct ThemeColor: View {
                 .zIndex(zIndexPreset[correctdRelativeIndex])
             }
             .shadow(radius: 5, x: 5, y: 0)
-            .offset(x: -100)
+            .offset(x: 0)
             .gesture(dragGesture)
         }
     }

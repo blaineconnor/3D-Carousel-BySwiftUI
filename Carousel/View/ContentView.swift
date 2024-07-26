@@ -14,10 +14,10 @@ struct ContentView: View {
                 .zIndex(1)
             ThemeColor(red: 226, green: 77, blue: 108)
                 .zIndex(0.5)
-                .offset(y: -35)
+                .offset(x: -35)
             ThemeColor(red: 90, green: 105, blue: 56)
                 .zIndex(0)
-                .offset(y: -35*2)
+                .offset(x: -35*2)
         }
         .padding()
     }
